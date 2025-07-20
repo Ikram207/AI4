@@ -1,28 +1,18 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Rhythmic Audio Cards</title>
-<link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <title>Mini App Musicale avec Deezer API</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <h1>Mini App Musicale avec Deezer API</h1>
 
-<header>
-  <h1>Rhythmic Audio Cards</h1>
-  <input type="search" id="search" placeholder="Rechercher une musique..." />
-</header>
+  <input type="text" id="searchInput" placeholder="Rechercher un artiste ou une chanson..." />
+  <button id="searchBtn">Rechercher</button>
 
-<main id="cards-container">
-  <!-- Les cartes musicales seront générées ici par JS -->
-</main>
+  <div id="results"></div>
 
-<footer>
-  <audio id="audio-player" controls>
-    Votre navigateur ne supporte pas la balise audio.
-  </audio>
-</footer>
-
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>

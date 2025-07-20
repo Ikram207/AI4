@@ -1,0 +1,82 @@
+/* Corps de page */
+body {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+  text-align: center;
+  margin: 0;
+}
+
+/* Input et bouton */
+#searchInput {
+  width: 320px;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px 0 0 8px;
+  outline: none;
+}
+
+#searchBtn {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #4a3aff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 0 8px 8px 0;
+  transition: background-color 0.3s ease;
+}
+
+#searchBtn:hover {
+  background-color: #1e12a9;
+}
+
+/* Résultats */
+#results {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Cartes de musique */
+.card {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 15px;
+  width: 200px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.card h4 {
+  margin: 8px 0 4px 0;
+  font-size: 18px;
+  color: #fff;
+}
+
+.card p {
+  margin: 0 0 10px 0;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.card audio {
+  width: 100%;
+  outline: none;
+  border-radius: 6px;
+}
